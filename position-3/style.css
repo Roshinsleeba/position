@@ -1,0 +1,108 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    padding: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.taskbar{
+    display: flex;
+    height: 15%;
+    color: white;
+    width: 100%;
+    position: relative;
+   
+}
+.daredev{
+   font-weight: bolder;
+   position: absolute;
+   font-size: x-large;
+
+}
+.options{
+  position: absolute;
+  right: 0;
+  font-size:large;
+   
+}
+.link{
+    margin: 5px;
+
+}
+.options a:hover{
+    color: brown;
+    cursor: pointer;
+}
+.start{
+    background-color: black;
+    border-radius: 10px;
+    border:darkred 2px solid;
+    color: white;
+    padding: 4px;
+    cursor: pointer;
+}
+.box{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.box1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    padding-inline: 5px;
+}
+#main{
+    display: flex;
+    color:red;
+    font-weight: bold;
+    font-size: 90px;
+    
+}
+#sub{
+    color:gray;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+
+}
+.getstart{
+    color: white;
+    border: darkred 2px solid;
+    background-color: black;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    padding: 5px;
+   
+}
+.box2{
+    width: 50%;
+    margin-left: 100px;
+    position: relative; 
+}
+
+.contact{
+    background-color:red;
+    color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    padding: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
